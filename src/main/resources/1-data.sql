@@ -1,0 +1,4 @@
+-- INSERT IGNORE INTO authority(name) VALUES ('ADMIN');
+-- INSERT IGNORE INTO authority(name) VALUES ('USER');
+-- INSERT IGNORE INTO users (id, created_by, created_date, last_modified_by, last_modified_date, activated, activation_key, email, first_name, image_url, lang_key, last_name, password_hash, reset_date, reset_key) VALUES (1, 'system', '2022-10-03 14:29:00.000000', '2022-10-03 14:29:00.000000', '2022-10-03 14:29:00.000000', true, null, 'admin@localhost', 'mehedi', null, null, null, '$2a$10$yD11waIKVWbeYMYj2q/xLeiTblBgVl0ddp1puab4du8NXopJHuCza', null, null);
+-- INSERT IGNORE INTO user_authority (user_id, authority_name) VALUES (1, 'ADMIN');
